@@ -280,7 +280,7 @@ def playerattack(m: Message, enemy: Opps):
     if enemy.hp <= 0:
         kent.send_message(m.chat.id, "Ты победил")
         player[-1] += 1
-        bars.write(player )
+        bars.write(player)
         return False
     else:
         kent.send_message(m.chat.id, f"У врага {enemy.hp} здоровья")

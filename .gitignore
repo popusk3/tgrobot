@@ -1,0 +1,5 @@
+.gitignore
+data.db
+cfg.py
+.idea
+.venv
